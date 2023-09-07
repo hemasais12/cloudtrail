@@ -15,4 +15,9 @@ public class HelloWorld {
     public String sayhello1(){
         return "Hello world ! you are in cloud as test 2";
     }
+
+    @RequestMapping("/hello2")
+    public String sayhello2(){
+        return "Hello world ! you are in cloud as test 3";
+    }
 }
